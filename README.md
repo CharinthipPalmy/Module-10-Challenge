@@ -2,6 +2,7 @@
 
 ![Alt text](https://git.bootcampcontent.com/Monash-University/MONU-VIRT-FIN-PT-06-2023-U-LOLC/-/raw/main/10-Unsupervised-Learning/Homework/Instructions/Images/10-5-challenge-image.png)
 
+
 ## Background
 
 In this Challenge, you’ll assume the role of an advisor at one of the top five financial advisory firms in the world. Competitors are fierce, so you want to propose a novel approach to assembling investment portfolios that are based on cryptocurrencies. Instead of basing your proposal on only returns and volatility, you want to include other factors that might impact the crypto market&mdash;leading to better performance for your portfolio.
@@ -25,6 +26,7 @@ In this section, I use the elbow method to find the best value for k.
 
 3. Answer the following question: What is the best value for k?
     **Answer:** k = 4
+
 ![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/Elbow%20curve%20by%20k.png?raw=true)
 
 ### Cluster Cryptocurrencies with K-means Using the Original Data
