@@ -1,6 +1,6 @@
 # Module 10 Challenge: Crypto Clustering
 
-![alt text]([Images/10-5-challenge-image.png](https://git.bootcampcontent.com/Monash-University/MONU-VIRT-FIN-PT-06-2023-U-LOLC/-/raw/main/10-Unsupervised-Learning/Homework/Instructions/Images/10-5-challenge-image.png))
+![Screenshot](../Photos/PCA scatter.png)
 
 
 ## Background
