@@ -25,7 +25,7 @@ In this section, I use the elbow method to find the best value for k.
 
 3. Answer the following question: What is the best value for k?
     **Answer:** k = 4
-![images](pics/Elbow curve by k.png)
+![images](pics/Elbow_curve_by_k.png)
 
 ### Cluster Cryptocurrencies with K-means Using the Original Data
 
@@ -41,7 +41,7 @@ In this section, I use the K-means algorithm with the best value for k (found in
 
 5. Using hvPlot, create a scatter plot by setting `x="price_change_percentage_24h"` and `y="price_change_percentage_7d"`. Color the graph points with the labels found using K-means. Then, add the crypto name in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
 
-![images](pics/scatter plot by k.png)
+![images](pics/scatter_plot_by_k.png)
 
 ### Optimize Clusters with Principal Component Analysis
 
@@ -58,7 +58,7 @@ In this section, I perform a principal component analysis (PCA) and reduce the f
 **Answer:** 0.89503166
 
 6. Create a new DataFrame with the PCA data. Be sure to set the `coin_id` index from the original DataFrame as the index for the new DataFrame. Review the resulting DataFrame.
-![images](pics/Image 5-9-2023 at 4.00 pm.jpg)
+![images](pics/Image_5.jpg)
 
 
 ### Find the Best Value for k Using the PCA Data
@@ -86,7 +86,7 @@ In this section, you will use the PCA data and the K-means algorithm with the be
 
 4. Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
 
-![images](pics/Image 5-9-2023 at 4.07 pm.jpg)
+![images](pics/Image_5-2.jpg)
 
 5. Using hvPlot, create a scatter plot by setting `x="PC1"` and `y="PC2"`. Color the graph points with the labels found using K-means. Then, add the crypto name in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
 
