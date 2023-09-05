@@ -1,6 +1,6 @@
 # Module 10 Challenge: Crypto Clustering
 
-![Screenshot](../Photos/PCA scatter.png)
+![Screenshot](../bpalmy@Charinthips-Air/photos/PCA scatter.png)
 
 
 ## Background
