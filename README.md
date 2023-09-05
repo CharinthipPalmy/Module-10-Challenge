@@ -1,7 +1,6 @@
 # Module 10 Challenge: Crypto Clustering
 
-![HTML logo](https://git.bootcampcontent.com/Monash-University/MONU-VIRT-FIN-PT-06-2023-U-LOLC/-/raw/main/10-Unsupervised-Learning/Homework/Instructions/Images/10-5-challenge-image.png)
-
+![images](pics/10-5-challenge-image.png)
 
 ## Background
 
@@ -26,8 +25,7 @@ In this section, I use the elbow method to find the best value for k.
 
 3. Answer the following question: What is the best value for k?
     **Answer:** k = 4
-
-![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/Elbow%20curve%20by%20k.png?raw=true)
+![images](pics/Elbow curve by k.png)
 
 ### Cluster Cryptocurrencies with K-means Using the Original Data
 
@@ -43,7 +41,7 @@ In this section, I use the K-means algorithm with the best value for k (found in
 
 5. Using hvPlot, create a scatter plot by setting `x="price_change_percentage_24h"` and `y="price_change_percentage_7d"`. Color the graph points with the labels found using K-means. Then, add the crypto name in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
 
-![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/scatter%20plot%20by%20k.png?raw=true)
+![images](pics/scatter plot by k.png)
 
 ### Optimize Clusters with Principal Component Analysis
 
@@ -60,7 +58,7 @@ In this section, I perform a principal component analysis (PCA) and reduce the f
 **Answer:** 0.89503166
 
 6. Create a new DataFrame with the PCA data. Be sure to set the `coin_id` index from the original DataFrame as the index for the new DataFrame. Review the resulting DataFrame.
-![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/Image%205-9-2023%20at%204.00%20pm.jpg?raw=true)
+![images](pics/Image 5-9-2023 at 4.00 pm.jpg)
 
 
 ### Find the Best Value for k Using the PCA Data
@@ -88,26 +86,22 @@ In this section, you will use the PCA data and the K-means algorithm with the be
 
 4. Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
 
-![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/Image%205-9-2023%20at%204.07%20pm.jpg?raw=true)
+![images](pics/Image 5-9-2023 at 4.07 pm.jpg)
 
 5. Using hvPlot, create a scatter plot by setting `x="PC1"` and `y="PC2"`. Color the graph points with the labels found using K-means. Then, add the crypto name in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
 
-![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/PCA%20scatter.png?raw=true)
+![images](pics/PCA scatter.png)
 
 ### Visualize and Compare the Results
 
 In this section, you will visually analyze the cluster analysis results by observing the outcome with and without using the optimization techniques.
 
 1. Create a composite plot using hvPlot and the plus (`+`) operator to compare the elbow curve that you created to find the best value for k with the original data and the PCA data.
-
-![Alt text]([https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/2Elbows.png?raw=true](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/pics/2Elbows.png?raw=true))
-
-![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/Elbow_in_1.png?raw=true)
+![images](pics/2Elbows.png)
+![images](pics/Elbow_in_1.png)
 
 3. Create a composite plot using hvPlot and the plus (`+`) operator to compare the cryptocurrencies clusters using the original data and the PCA data.
-
-![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/2Scatters.png?raw=true)
-
+![images](pics/2Scatters.png)
 4. Answer the following question: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data by using K-means?
 
   * **Answer:** When we use fewer features, you are essentially reducing the dimensionality of your data. This can result in a loss of information, as some important characteristics or patterns in the data may be encoded in the features that you are omitting. Therefore, the clusters formed based on a reduced set of features(Scatter Plot by PCA) may not capture the complete structure of the data. The interpretability of the clusters may be affected by the choice of features. If you remove features that are highly relevant to the interpretation of the clusters, it can make it harder to explain and understand the results
