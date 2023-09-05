@@ -99,7 +99,7 @@ In this section, you will use the PCA data and the K-means algorithm with the be
 In this section, you will visually analyze the cluster analysis results by observing the outcome with and without using the optimization techniques.
 
 1. Create a composite plot using hvPlot and the plus (`+`) operator to compare the elbow curve that you created to find the best value for k with the original data and the PCA data.
-![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/2Elbows.png?raw=true)
+![Alt text]([https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/2Elbows.png?raw=true](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/pics/2Elbows.png?raw=true))
 ![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/Elbow_in_1.png?raw=true)
 3. Create a composite plot using hvPlot and the plus (`+`) operator to compare the cryptocurrencies clusters using the original data and the PCA data.
 ![Alt text](https://github.com/CharinthipPalmy/Module-10-Challenge/blob/main/2Scatters.png?raw=true)
